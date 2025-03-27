@@ -4,5 +4,11 @@ using UnityEngine;
 
 public class ItemData : ScriptableObject
 {
+    public int ID;
+    public string Name;
+    public string Description;
 
+
+    public bool IsStack;
+    public int MaxStack;
 }
