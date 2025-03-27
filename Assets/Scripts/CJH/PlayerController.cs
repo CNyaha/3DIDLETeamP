@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("Movement")]
+    public float monveSpeed = 5f;
+    public float gravity = -9.8f;
+    public float jumpForce = 5f;
+
+    [Header("Refernces")]
+    public Transform cameraTransform;
+
+    private Vector2 moveInput;
+    private bool jumpInput;
+    private Vector3 velocity;
+
+    private void Awake()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
