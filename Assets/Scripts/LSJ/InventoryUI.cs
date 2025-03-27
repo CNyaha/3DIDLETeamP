@@ -1,18 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using UnityEngine;
 
-public class InventoryUI : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+//public class InventoryUI : MonoBehaviour
+//{
+//    public static InventoryUI Instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+//    public GameObject slotPrefab;
+//    public Transform slotParent;
+
+//    public Inventory inventory;
+
+//    private void Awake()
+//    {
+//        Instance = this;
+//    }
+
+//    public void Initialize(Inventory targetInventory)
+//    {
+//        inventory = targetInventory;
+
+//        for (int i = 0; i < inventory.slots.Length; i++)
+//        {
+//            GameObject go = Instantiate(slotPrefab, slotParent);
+//            InventorySlotUI slotUI = go.GetComponent<InventorySlotUI>();
+//            slotUI.slotIndex = i;
+//            slotUI.Set(inventory.slots[i]);
+//        }
+//    }
+
+//    public void Refresh()
+//    {
+//        for (int i = 0; i < slotParent.childCount; i++)
+//        {
+//            InventorySlotUI slotUI = slotParent.GetChild(i).GetComponent<InventorySlotUI>();
+//            slotUI.Set(inventory.slots[i]);
+//        }
+//    }
+//}

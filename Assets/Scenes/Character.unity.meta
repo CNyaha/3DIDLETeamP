@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Resources.meta
 guid: aa61090a719a66c4c84ba397169579ca
 folderAsset: yes
 ========
 guid: adbfd66ef1358f7479c475d6a0cda9f9
 >>>>>>>> Dev:Assets/Scenes/Character.unity.meta
-=======
-<<<<<<<< HEAD:Assets/Resources/EquipItem.meta
-guid: 1b0fe1605f09f3b4eac88db0ebab4ce5
-========
-guid: 0259a2483683f7c4c9264e9b883b6c62
->>>>>>>> Dev:Assets/Resources.meta
-folderAsset: yes
->>>>>>> Dev
 DefaultImporter:
   externalObjects: {}
   userData: 

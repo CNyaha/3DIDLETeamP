@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/EquipItem.meta
 guid: 1b0fe1605f09f3b4eac88db0ebab4ce5
+========
+guid: 0259a2483683f7c4c9264e9b883b6c62
+>>>>>>>> Dev:Assets/Resources.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
