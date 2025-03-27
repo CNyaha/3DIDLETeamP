@@ -1,18 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using UnityEngine;
+//using static UnityEditor.Progress;
 
-public class InventorySlot : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+//[System.Serializable]
+//public class InventorySlot
+//{
+//    public Item item;
+//    public int quantity;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+//    public bool IsEmpty => item == null || quantity <= 0;
+
+//    public void Clear()
+//    {
+//        item = null;
+//        quantity = 0;
+//    }
+
+//    public void Assign(Item newItem, int count)
+//    {
+//        item = newItem;
+//        quantity = count;
+//    }
+
+//    public void AddQuantity(int count)
+//    {
+//        quantity += count;
+//    }
+//}
